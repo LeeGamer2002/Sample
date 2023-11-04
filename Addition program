@@ -1,14 +1,12 @@
-#include <stdio.h>
-int main() {    
+class Main {
 
-    int number1, number2, sum;
+  public static void main(String[] args) {
     
-    printf("Enter two integers: ");
-    scanf("%d %d", &number1, &number2);
+    int first = 10;
+    int second = 20;
 
-    // calculate the sum
-    sum = number1 + number2;      
-    
-    printf("%d + %d = %d", number1, number2, sum);
-    return 0;
+    // add two numbers
+    int sum = first + second;
+    System.out.println(first + " + " + second + " = "  + sum);
+  }
 }
